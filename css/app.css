@@ -197,6 +197,70 @@ span.invisible-previewline {
   opacity: 0;
   overflow: hidden; }
 
+table.button {
+  width: auto;
+  margin: 0 0 16px 0;
+  Margin: 0 0 16px 0; }
+  table.button table td {
+    text-align: left;
+    color: #fefefe;
+    background: #76bd22;
+    border: 2px solid #76bd22; }
+    table.button table td a {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      color: #fefefe;
+      text-decoration: none;
+      display: inline-block;
+      padding: 8px 16px 8px 16px;
+      border: 0 solid #76bd22;
+      border-radius: 3px; }
+  table.button.radius table td {
+    border-radius: 3px;
+    border: none; }
+
+table.button:hover table tr td a,
+table.button:active table tr td a,
+table.button table tr td a:visited {
+  color: #fefefe; }
+
+table.button:hover table td,
+table.button:visited table td,
+table.button:active table td {
+  background: #5b921a;
+  color: #fefefe; }
+
+table.button:hover table a,
+table.button:visited table a,
+table.button:active table a {
+  border: 0 solid #5b921a; }
+
+table.button.secondary table td {
+  background: #c51f37;
+  color: #fefefe;
+  border: 0px solid #c51f37; }
+
+table.button.secondary table a {
+  color: #fefefe;
+  border: 0 solid #c51f37; }
+
+table.button.secondary:hover table td {
+  background: #e03750;
+  color: #fefefe; }
+
+table.button.secondary:hover table a {
+  border: 0 solid #e03750; }
+
+table.button.secondary:hover table td a {
+  color: #fefefe; }
+
+table.button.secondary:active table td a {
+  color: #fefefe; }
+
+table.button.secondary table td a:visited {
+  color: #fefefe; }
+
 @media only screen and (max-width: 616px) {
   table.body img {
     width: auto;
@@ -242,6 +306,10 @@ a, a:visited, a:hover {
   font-weight: normal;
   color: #005587; }
 
+table.button table td a {
+  letter-spacing: 1px;
+  text-align: center; }
+
 .footer {
   background: #4a4f55; }
 
@@ -275,6 +343,9 @@ a, a:visited, a:hover {
 
 .vsl-logo {
   max-width: 300px; }
+
+table.button table td {
+  text-align: center !important; }
 
 .no-bottom-padding {
   padding-bottom: 0 !important; }
