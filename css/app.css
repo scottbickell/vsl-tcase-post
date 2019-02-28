@@ -350,14 +350,11 @@ table.button table td {
 .no-bottom-padding {
   padding-bottom: 0 !important; }
 
-sup {
-  font-size: 12px;
-  line-height: 12px;
-  display: inline-block;
-  margin-right: 3px; }
-
 .product-logo {
   max-width: 250px; }
+
+.i-am-more-purple {
+  color: #351c55; }
 
 @media only screen and (max-width: 616px) {
   .social-media img {
